@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href = "#My skills"> My skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+        <p>Hello there, <br><br> Welcome to my Portfolio, <br>
+          My name is Clyde Odhiambo. I am doing a course work in Power Learn Project specialization in Web Technologies and Dart and Flutter. I have made some awesome projects and also have participated in hackathon software engineering program. I have very deep interest in Python, Database programming and also I have participated in events like in App development held on online platform from which  we had made a messaging app for that event.        </p>
+    </section>
+    <head>
+      <img src="clyde_sam.png" alt="my pic" width="450" height="400" align="right">
+      <br>
+      <style>
+          .image-align-right {
+              float: right;
+              margin-right: 10px
+          }
+      </style>
+    </head>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li>Entrepreneurship</li>
+        <li>Python Language</li>
+        <li>Software Engineering</li>
+            <ul>
+                <li>Website Development</li>
+                <li>App Development</li>
+            </ul>
+      </ol>
+    </section>
+    <section id="My skills">
+        <h2>My skills</h2>
+        <ul>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>Databases</li>
+            <li>Dart/Flutter</li>
+        </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can contact me at:</p>
+      <ul>
+        <li>Email: olyde190@gmail.com</li>
+        <li>Phone: +254746399434</li>
+        
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2022 My Portfolio
+    </p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
